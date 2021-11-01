@@ -46,14 +46,14 @@ const lolkey = '0b0ffba94f2b803b88721e4f'
 
 hargalimit = "100"
 limitawal = "20"
-namabot = "AnisaChan🎋(Helga)"
-namaowner = "Helga Ilham`"
-nomerowner = '6282138919347'
+namabot = "BoT×Chromosome"
+namaowner = "Ajur×ChM`"
+nomerowner = '6281804832728'
 gamewaktu = "30"
 leave = 'sayonara'
 f = ' ⑅⃝🐋'
 waitbang = "Mohon Tunggu Sebentar  「 ⏳ 」"
-public = false
+public = true
 MenulistMessage = true
 blocked = [] 
 const Exif = require('./lib/exif')
@@ -64,7 +64,7 @@ const X = "❌"
 const O = "⭕️"
 imagebb = "https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg"
 imagebbthumb ="https://i.ibb.co/kmmVmCS/b963663c3210.jpg"
-const ownerNumber = [`${nomerowner}@s.whatsapp.net`]
+const ownerNumber = [`${6281804832728}@s.whatsapp.net`]
 
 gambar = fs.readFileSync('./image/gambar.jpeg')
 gambar2 = fs.readFileSync('./image/gambar2.jpeg')
@@ -361,7 +361,7 @@ teks = `*┏━━━•🌹WELCOME🌹•━━━*
 *┃✙◗ Jenis kelamin:*
 *┃✙◗ Umur:*
 *┗━━━━━━━━━━━━━━ •*
-• *LU OUT DI SANTET HELGA* •`
+• *LU OUT DI SANTET Ajur* •`
 let buff = await getBuffer(ppimg)
 client.sendMessage(mdata.id, buff, MessageType.image, {thumbnail: gambar2, caption: teks, contextInfo: {"mentionedJid": [num]}})
 } else if (anu.action == 'remove') {
@@ -1154,8 +1154,8 @@ const processsTime = (timestamp, now) => {
 return moment.duration(now - moment(timestamp * 1000)).asSeconds()} 
 nunie = nomerowner + '@s.whatsapp.net'
 teks = `┏━━━━━━━ •
-┃${f} *NAMA BOT :* ${namabot}
-┃${f} *OWNER :* @${nunie.split("@")[0]}
+┃${f} *NAMA BOT :* ${BoT×Chromosome}
+┃${f} *OWNER :* @${Ajur×ChM}
 ┃${f} *PREFIX :* 「 *MULTI* 」
 ┃${f} *RUNTIME :* ${kyun(process.uptime())}
 ┃${f} *SPEED :* ${processsTime(mek.messageTimestamp.low, moment())} S
@@ -1183,11 +1183,11 @@ teks = `┏━━━━━━━ •
 *┃┃✙◗ _Helga Ganteng_*
 *┃┗━━━━━━━━*
 *┃✙◗ thanx to Allah*
-*┃✙◗ thanx to Yang Sayang Helga:v*
+*┃✙◗ thanx to Helga:v*
 *┃✙◗ thanx to emak&bapak*
 *┃✙◗ thanx to saya :V*
 *┃✙◗ thanx to Hape :V*
-*┃✙◗ thanx to Setan*
+*┃✙◗ thanx to ChM*
 *┗━━━━━━━ •*`
 client.sendMessage(from, gambar, image, {thumbnail: gambar2, quoted: mek, caption: teks, contextInfo:{mentionedJid: [nunie]}})
 }
@@ -1237,7 +1237,7 @@ let wel = client.prepareMessageFromContent(from, {
 *┃✙◗ thanx to emak&bapak*
 *┃✙◗ thanx to saya :V*
 *┃✙◗ thanx to Pocong*
-*┃✙◗ thanx to Setan*
+*┃✙◗ thanx to ChM*
 *┗━━━━━━━ •*
 *NOTE :* Untuk Kalkulator,
 Gunakan Prefix (=)
@@ -1375,7 +1375,7 @@ ${f} *Helga*
 ${f} *Maymunah*
 ${f} *Jamilah*
 ${f} *Aisyah*
-${f} *Helga*
+${f} *Ajur*
 ${f} *Mie Ayam*
 ${f} *PENYEDIA API*
 ${f} *Napa Masi Di Baca?*
